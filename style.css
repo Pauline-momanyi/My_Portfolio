@@ -3,17 +3,28 @@ html, body {
     overflow-x: hidden;
     /* margin: 5px; */
 }
+.whole{
+    height: 45vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
 .image1{
     position: absolute;
     z-index: -1;
     width: 100%;
+    height: 100%;
     opacity: 0.5;
-    height: 45vh;
+    /* background-size: cover; */
+   
 
 }
-nav{
-    float: right;
-    
+#navigation{
+    position: absolute;
+    right: 10px;
+}
+ul{
+    text-align: right !important;    
 }
 a.nav-link{
     color: black;
@@ -21,8 +32,15 @@ a.nav-link{
 a.active{
     color: #D35711;
 }
+
 .intro{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+    margin-top: 40px;
+  
 }
 .intro img{
     width: 100px;
@@ -33,12 +51,13 @@ a.active{
     text-shadow: 1px 1px black;
 }
 .mybody{
-    height: 60vh;
+    /* height: 70vh; */
     background-color: #121129;
 }
 footer{
     height: 6vh;
     text-align: center;
+    background-color: aliceblue;
 }
 .myend{
     height: 4vh;
@@ -56,6 +75,9 @@ footer{
 }
 .aboutme h2{
     color: #D35711;
+}
+.row{
+    text-align: center;
 }
 .row>h2{
     color: #D35711;
