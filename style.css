@@ -8,15 +8,23 @@ html, body {
     z-index: -1;
     width: 100%;
     opacity: 0.5;
-    height: 40vh;
+    height: 45vh;
 
 }
 nav{
     float: right;
+    
 }
 a.nav-link{
     color: black;
 }
 a.active{
     color: #D35711;
+}
+.intro{
+    text-align: center;
+}
+.intro img{
+    width: 100px;
+    height: 100px;
 }
