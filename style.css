@@ -28,3 +28,23 @@ a.active{
     width: 100px;
     height: 100px;
 }
+.intro h2{
+    color: #D35711;
+    text-shadow: 1px 1px black;
+}
+.mybody{
+    height: 48vh;
+    background-color: #121129;
+}
+footer{
+    height: 6vh;
+    text-align: center;
+}
+.myend{
+    height: 4vh;
+    background-color: #121129;
+}
+.fa{
+    color: #D35711;
+    margin-right: 10px;
+}
