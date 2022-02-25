@@ -44,7 +44,7 @@ a.active{
 }
 .intro img{
     width: 100px;
-    height: 100px;
+    height: 105px;
 }
 .intro h2{
     color: #D35711;
@@ -55,7 +55,7 @@ a.active{
     background-color: #121129;
 }
 footer{
-    height: 6vh;
+    height: 4vh;
     text-align: center;
     background-color: aliceblue;
 }
