@@ -1,12 +1,22 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    margin: 5px;
+    /* margin: 5px; */
 }
 .image1{
     position: absolute;
     z-index: -1;
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.5;
+    height: 40vh;
 
+}
+nav{
+    float: right;
+}
+a.nav-link{
+    color: black;
+}
+a.active{
+    color: #D35711;
 }
