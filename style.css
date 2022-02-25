@@ -68,7 +68,7 @@ footer{
     margin-right: 10px;
 }
 .aboutme{
-    width: 60%;
+    width: 70%;
     margin: auto;
     text-align: center;
     color: white;
@@ -79,6 +79,10 @@ footer{
 .row{
     text-align: center;
 }
-.row>h2{
+.projects h2{
     color: #D35711;
 }
+.mylist {
+    display: flex;
+}
+#more {display: none;}
