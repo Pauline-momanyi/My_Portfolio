@@ -1,0 +1,12 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 5px;
+}
+.image1{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    opacity: 0.7;
+
+}
