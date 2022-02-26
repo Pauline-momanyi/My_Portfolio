@@ -23,9 +23,9 @@ html, body {
     position: absolute;
     right: 10px;
 }
-ul{
+/* ul{
     text-align: right !important;    
-}
+} */
 a.nav-link{
     color: black;
 }
